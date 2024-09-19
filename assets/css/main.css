@@ -779,6 +779,11 @@ section {
   -o-transition: 0.3s;
 }
 
+
+.services .service-item h3 span {
+  color: var(--color-primary);
+}
+
 .services .service-item ul {
   padding: 0 20px 0;
   font-size: 14px;
@@ -979,12 +984,16 @@ section {
 .projects .portfolio-content .portfolio-info .preview-link,
 .projects .portfolio-content .portfolio-info .details-link {
   position: absolute;
-  left: calc(50% - 40px);
+  left: calc(50% - 15px);
   font-size: 26px;
   top: calc(50% - 14px);
   color: #fff;
   transition: 0.3s;
   line-height: 1.2;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .projects .portfolio-content .portfolio-info .preview-link:hover,
